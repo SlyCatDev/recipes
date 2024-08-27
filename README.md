@@ -8,6 +8,7 @@ skills acquired :
 - git
 - github
 - HTML
+- CSS
 
 
 Link for live preview:
