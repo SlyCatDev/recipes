@@ -1,0 +1,22 @@
+html{
+    display: flex;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 53, 53);
+    background-color: antiquewhite;
+    margin: auto;
+}
+.title-page1 h1{
+    color: hsla(35.45454545454547, 84.62%, 94.90%, 1.00);
+    background-color: #075526;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+}
+a {
+    line-height: 29px;
+    text-decoration: none;
+}
