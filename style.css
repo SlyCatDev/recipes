@@ -1,21 +1,53 @@
-html{
-    display: flex;
+*{
+    box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(53, 53, 53);
     background-color: antiquewhite;
     margin: auto;
 }
-.title-page1 h1{
-    color: hsla(35.45454545454547, 84.62%, 94.90%, 1.00);
+
+.header{
     background-color: #075526;
     text-align: center;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: auto;
+    padding: 10px;
 }
+
+.titre_header{
+    color: hsla(35.45454545454547, 84.62%, 94.90%, 1.00);
+}
+
+.content{
+    display: flex;
+    margin:10px;
+    font-size: 20px;
+}
+
+div img{
+    width: 400px;
+    height : 0 auto;
+}
+
+.item p{
+    display: inline-block;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height:auto;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
 a {
     line-height: 29px;
     text-decoration: none;
