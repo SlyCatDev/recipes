@@ -6,8 +6,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(53, 53, 53);
     background-color: antiquewhite;
-    margin: auto;
+    margin: 0;
+    padding:0;
 }
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius:10px;
+}
+
+a {
+    line-height: 29px;
+    text-decoration: none;
+}
+
 
 .header{
     background-color: #075526;
@@ -25,13 +38,11 @@ body {
 
 .content{
     display: flex;
-    margin:10px;
+    padding: 60px;
     font-size: 20px;
-}
-
-div img{
-    width: 400px;
-    height : 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
 }
 
 .item p{
@@ -39,16 +50,26 @@ div img{
 }
 
 .item{
-    display: flex;
-    justify-content: center;
     width: 400px;
     height:auto;
     margin: 20px;
-    align-items: center;
     text-align: center;
 }
 
-a {
-    line-height: 29px;
-    text-decoration: none;
+.shadow-img{
+    transition: 0.2s;
+}
+
+.shadow-img:hover{
+    box-shadow: 5px 2px 10px black;
+}
+
+
+
+/* Display screen smartphone */
+@media (max-width:768px){
+    *{
+        flex-direction: column;
+
+    }
 }
